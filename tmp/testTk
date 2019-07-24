@@ -1,0 +1,6 @@
+use Tk;
+$mw = MainWindow->new( );
+$mw->Label(~text=>"label Widget")->pack( );
+$mw->Button(~text=>"Exit", ~command => sub { exit })->pack( );
+MainLoop;
+
